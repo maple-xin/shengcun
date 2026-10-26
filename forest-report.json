@@ -1,0 +1,456 @@
+{
+  "collection": "KayKit Forest Nature Pack 1.0 FREE \u2014 curated selection",
+  "author": "Kay Lousberg",
+  "license": "CC0-1.0",
+  "officialSource": "https://kaylousberg.itch.io/kaykit-forest",
+  "downloadSource": "https://raw.githubusercontent.com/Station-Sciences/bot-crossing/main/public/assets/forest.glb",
+  "mirrorRepository": "https://github.com/Station-Sciences/bot-crossing",
+  "sourceCommit": "72afc69ee2d42f2b6b88b41296f1ea9b23e03f83",
+  "sourceGitBlob": "386f990dfc5580dd6c6063a1ee4838bdf4df6742",
+  "sourceSHA256": "8d7dfa511015e66d454c271efda29174981957220d63fc88ec0fabec5cdd224d",
+  "provenance": "Official author page confirms free-tier trees, bushes, grass and rocks under CC0. Mirror tools/build-assets.mjs explicitly builds this aggregate from assets-src/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf. Author itch.io downloads were unreachable from this network; publicly redistributed CC0 mirror used. No EXTRA/SOURCE/paid assets acquired.",
+  "flowers": "No flower model is present in the verified free-tier mirror subset; none fabricated or substituted.",
+  "coordinateSystem": "glTF right-handed Y up; original dimensions; models rest at Y=0 within export float precision.",
+  "assets": [
+    {
+      "id": "tree-round-small",
+      "path": "models/forest/tree-round-small.glb",
+      "originalFile": "Tree_1_A_Color1.gltf",
+      "originalNode": "Tree_1_A_Color1",
+      "triangles": 530,
+      "bounds": {
+        "min": [
+          -1.93459,
+          -0.26132,
+          -1.62556
+        ],
+        "max": [
+          1.2464,
+          3.89938,
+          1.62556
+        ],
+        "size": [
+          3.18099,
+          4.1607,
+          3.25113
+        ]
+      },
+      "bytes": 67724,
+      "sha256": "7799a8f8b1dd85e77767e66ed4ec2aa61b5e8477be79f52bbfe6a48af7d4f558",
+      "animations": [],
+      "format": "glTF 2.0 binary",
+      "conversion": "Imported documented FREE-tier aggregate GLB in Blender; exported this single model with its embedded gradient-atlas texture. Original geometry, UVs, materials, origin and scale retained.",
+      "verification": {
+        "standaloneGLB": true,
+        "embeddedImages": 1,
+        "externalURIs": 0,
+        "reimportedInBlender": true,
+        "drawCallsPerInstance": 1
+      }
+    },
+    {
+      "id": "tree-round-large",
+      "path": "models/forest/tree-round-large.glb",
+      "originalFile": "Tree_1_C_Color1.gltf",
+      "originalNode": "Tree_1_C_Color1",
+      "triangles": 1364,
+      "bounds": {
+        "min": [
+          -2.7458,
+          -0.39232,
+          -2.87668
+        ],
+        "max": [
+          3.94549,
+          7.42193,
+          2.87668
+        ],
+        "size": [
+          6.6913,
+          7.81425,
+          5.75335
+        ]
+      },
+      "bytes": 97308,
+      "sha256": "a898e1edc044f144ee86de2525a48d289ff0c14c59ff534d05814cdce209697f",
+      "animations": [],
+      "format": "glTF 2.0 binary",
+      "conversion": "Imported documented FREE-tier aggregate GLB in Blender; exported this single model with its embedded gradient-atlas texture. Original geometry, UVs, materials, origin and scale retained.",
+      "verification": {
+        "standaloneGLB": true,
+        "embeddedImages": 1,
+        "externalURIs": 0,
+        "reimportedInBlender": true,
+        "drawCallsPerInstance": 1
+      }
+    },
+    {
+      "id": "tree-flat-small",
+      "path": "models/forest/tree-flat-small.glb",
+      "originalFile": "Tree_3_A_Color1.gltf",
+      "originalNode": "Tree_3_A_Color1",
+      "triangles": 978,
+      "bounds": {
+        "min": [
+          -1.55212,
+          -0.26132,
+          -1.5466
+        ],
+        "max": [
+          1.54108,
+          3.24528,
+          1.5466
+        ],
+        "size": [
+          3.0932,
+          3.5066,
+          3.0932
+        ]
+      },
+      "bytes": 80172,
+      "sha256": "5c11a0e199507f7d9de6890ffdb88a5898bc70d7de0cc97645402613aa744c09",
+      "animations": [],
+      "format": "glTF 2.0 binary",
+      "conversion": "Imported documented FREE-tier aggregate GLB in Blender; exported this single model with its embedded gradient-atlas texture. Original geometry, UVs, materials, origin and scale retained.",
+      "verification": {
+        "standaloneGLB": true,
+        "embeddedImages": 1,
+        "externalURIs": 0,
+        "reimportedInBlender": true,
+        "drawCallsPerInstance": 1
+      }
+    },
+    {
+      "id": "tree-flat-large",
+      "path": "models/forest/tree-flat-large.glb",
+      "originalFile": "Tree_3_C_Color1.gltf",
+      "originalNode": "Tree_3_C_Color1",
+      "triangles": 2228,
+      "bounds": {
+        "min": [
+          -3.23895,
+          -0.39232,
+          -1.87761
+        ],
+        "max": [
+          2.39329,
+          5.39965,
+          2.74712
+        ],
+        "size": [
+          5.63224,
+          5.79197,
+          4.62474
+        ]
+      },
+      "bytes": 122972,
+      "sha256": "ab74d1051f297f4e23cff0fd8621c5e1472040776ef89e799a31a358faceb144",
+      "animations": [],
+      "format": "glTF 2.0 binary",
+      "conversion": "Imported documented FREE-tier aggregate GLB in Blender; exported this single model with its embedded gradient-atlas texture. Original geometry, UVs, materials, origin and scale retained.",
+      "verification": {
+        "standaloneGLB": true,
+        "embeddedImages": 1,
+        "externalURIs": 0,
+        "reimportedInBlender": true,
+        "drawCallsPerInstance": 1
+      }
+    },
+    {
+      "id": "tree-fir-small",
+      "path": "models/forest/tree-fir-small.glb",
+      "originalFile": "Tree_4_A_Color1.gltf",
+      "originalNode": "Tree_4_A_Color1",
+      "triangles": 404,
+      "bounds": {
+        "min": [
+          -0.96001,
+          -0.34212,
+          -1.01968
+        ],
+        "max": [
+          1.04734,
+          4.93227,
+          0.98467
+        ],
+        "size": [
+          2.00735,
+          5.27439,
+          2.00435
+        ]
+      },
+      "bytes": 62648,
+      "sha256": "7e182cfe502dfb48595e67e015a9e1877e1f170721a2ff6f2ee275fd3caeac8e",
+      "animations": [],
+      "format": "glTF 2.0 binary",
+      "conversion": "Imported documented FREE-tier aggregate GLB in Blender; exported this single model with its embedded gradient-atlas texture. Original geometry, UVs, materials, origin and scale retained.",
+      "verification": {
+        "standaloneGLB": true,
+        "embeddedImages": 1,
+        "externalURIs": 0,
+        "reimportedInBlender": true,
+        "drawCallsPerInstance": 1
+      }
+    },
+    {
+      "id": "tree-fir-large",
+      "path": "models/forest/tree-fir-large.glb",
+      "originalFile": "Tree_4_C_Color1.gltf",
+      "originalNode": "Tree_4_C_Color1",
+      "triangles": 982,
+      "bounds": {
+        "min": [
+          -1.73091,
+          -0.35652,
+          -1.54734
+        ],
+        "max": [
+          2.00425,
+          10.41751,
+          1.32175
+        ],
+        "size": [
+          3.73516,
+          10.77403,
+          2.86909
+        ]
+      },
+      "bytes": 81220,
+      "sha256": "eb773bedb07e1d475a7e84aaba9aa3857310dcd40dc9b11879845cfb9249ff46",
+      "animations": [],
+      "format": "glTF 2.0 binary",
+      "conversion": "Imported documented FREE-tier aggregate GLB in Blender; exported this single model with its embedded gradient-atlas texture. Original geometry, UVs, materials, origin and scale retained.",
+      "verification": {
+        "standaloneGLB": true,
+        "embeddedImages": 1,
+        "externalURIs": 0,
+        "reimportedInBlender": true,
+        "drawCallsPerInstance": 1
+      }
+    },
+    {
+      "id": "bush-round",
+      "path": "models/forest/bush-round.glb",
+      "originalFile": "Bush_1_E_Color1.gltf",
+      "originalNode": "Bush_1_E_Color1",
+      "triangles": 552,
+      "bounds": {
+        "min": [
+          -0.8318,
+          -0.01236,
+          -0.60591
+        ],
+        "max": [
+          0.74334,
+          0.79607,
+          0.71065
+        ],
+        "size": [
+          1.57514,
+          0.80842,
+          1.31656
+        ]
+      },
+      "bytes": 66868,
+      "sha256": "8cb2a9fabade06dd7919acc318ea6b0c3ce58cf573fe810bee607c53c2929bdc",
+      "animations": [],
+      "format": "glTF 2.0 binary",
+      "conversion": "Imported documented FREE-tier aggregate GLB in Blender; exported this single model with its embedded gradient-atlas texture. Original geometry, UVs, materials, origin and scale retained.",
+      "verification": {
+        "standaloneGLB": true,
+        "embeddedImages": 1,
+        "externalURIs": 0,
+        "reimportedInBlender": true,
+        "drawCallsPerInstance": 1
+      }
+    },
+    {
+      "id": "bush-flat",
+      "path": "models/forest/bush-flat.glb",
+      "originalFile": "Bush_3_B_Color1.gltf",
+      "originalNode": "Bush_3_B_Color1",
+      "triangles": 240,
+      "bounds": {
+        "min": [
+          -0.84167,
+          -0.02611,
+          -0.84167
+        ],
+        "max": [
+          0.84167,
+          0.77742,
+          0.84167
+        ],
+        "size": [
+          1.68334,
+          0.80353,
+          1.68334
+        ]
+      },
+      "bytes": 56960,
+      "sha256": "1007e85ce3ac0b07b53dfcb28b29a9df47cb19dd1db9f448ecf1ed10c788adb9",
+      "animations": [],
+      "format": "glTF 2.0 binary",
+      "conversion": "Imported documented FREE-tier aggregate GLB in Blender; exported this single model with its embedded gradient-atlas texture. Original geometry, UVs, materials, origin and scale retained.",
+      "verification": {
+        "standaloneGLB": true,
+        "embeddedImages": 1,
+        "externalURIs": 0,
+        "reimportedInBlender": true,
+        "drawCallsPerInstance": 1
+      }
+    },
+    {
+      "id": "grass-cluster",
+      "path": "models/forest/grass-cluster.glb",
+      "originalFile": "Grass_2_D_Color1.gltf",
+      "originalNode": "Grass_2_D_Color1",
+      "triangles": 528,
+      "bounds": {
+        "min": [
+          -0.57277,
+          -0.04774,
+          -0.71206
+        ],
+        "max": [
+          0.53173,
+          0.88749,
+          0.65436
+        ],
+        "size": [
+          1.1045,
+          0.93523,
+          1.36642
+        ]
+      },
+      "bytes": 74756,
+      "sha256": "c207d743ad692a1112508d13a51b078a72fbc8808fa2ea0e0ee84e2beedd35d4",
+      "animations": [],
+      "format": "glTF 2.0 binary",
+      "conversion": "Imported documented FREE-tier aggregate GLB in Blender; exported this single model with its embedded gradient-atlas texture. Original geometry, UVs, materials, origin and scale retained.",
+      "verification": {
+        "standaloneGLB": true,
+        "embeddedImages": 1,
+        "externalURIs": 0,
+        "reimportedInBlender": true,
+        "drawCallsPerInstance": 1
+      }
+    },
+    {
+      "id": "rock-round",
+      "path": "models/forest/rock-round.glb",
+      "originalFile": "Rock_1_D_Color1.gltf",
+      "originalNode": "Rock_1_D_Color1",
+      "triangles": 84,
+      "bounds": {
+        "min": [
+          -0.38679,
+          0.0,
+          -0.62475
+        ],
+        "max": [
+          0.54027,
+          1.12997,
+          0.53187
+        ],
+        "size": [
+          0.92706,
+          1.12997,
+          1.15662
+        ]
+      },
+      "bytes": 54848,
+      "sha256": "ebb123988261329550069fdf6a28e3af8717235a30c509bf2728d8340b16ed9e",
+      "animations": [],
+      "format": "glTF 2.0 binary",
+      "conversion": "Imported documented FREE-tier aggregate GLB in Blender; exported this single model with its embedded gradient-atlas texture. Original geometry, UVs, materials, origin and scale retained.",
+      "verification": {
+        "standaloneGLB": true,
+        "embeddedImages": 1,
+        "externalURIs": 0,
+        "reimportedInBlender": true,
+        "drawCallsPerInstance": 1
+      }
+    },
+    {
+      "id": "rock-angular",
+      "path": "models/forest/rock-angular.glb",
+      "originalFile": "Rock_2_C_Color1.gltf",
+      "originalNode": "Rock_2_C_Color1",
+      "triangles": 108,
+      "bounds": {
+        "min": [
+          -0.64761,
+          4e-05,
+          -0.64763
+        ],
+        "max": [
+          0.64765,
+          1.32624,
+          0.64763
+        ],
+        "size": [
+          1.29526,
+          1.3262,
+          1.29526
+        ]
+      },
+      "bytes": 53408,
+      "sha256": "c3f93264dd4acfd7d9e7f644cfcac70ac846589fccba59e7f119d7ee18b59f70",
+      "animations": [],
+      "format": "glTF 2.0 binary",
+      "conversion": "Imported documented FREE-tier aggregate GLB in Blender; exported this single model with its embedded gradient-atlas texture. Original geometry, UVs, materials, origin and scale retained.",
+      "verification": {
+        "standaloneGLB": true,
+        "embeddedImages": 1,
+        "externalURIs": 0,
+        "reimportedInBlender": true,
+        "drawCallsPerInstance": 1
+      }
+    },
+    {
+      "id": "rock-low",
+      "path": "models/forest/rock-low.glb",
+      "originalFile": "Rock_3_E_Color1.gltf",
+      "originalNode": "Rock_3_E_Color1",
+      "triangles": 84,
+      "bounds": {
+        "min": [
+          -0.55643,
+          -0.5915,
+          -0.58346
+        ],
+        "max": [
+          0.58885,
+          0.69614,
+          0.59768
+        ],
+        "size": [
+          1.14527,
+          1.28764,
+          1.18114
+        ]
+      },
+      "bytes": 54544,
+      "sha256": "b08ccb4a4566700b3cfa1583b97572c6da5dcfdc65d2f97bbd72ba9734643145",
+      "animations": [],
+      "format": "glTF 2.0 binary",
+      "conversion": "Imported documented FREE-tier aggregate GLB in Blender; exported this single model with its embedded gradient-atlas texture. Original geometry, UVs, materials, origin and scale retained.",
+      "verification": {
+        "standaloneGLB": true,
+        "embeddedImages": 1,
+        "externalURIs": 0,
+        "reimportedInBlender": true,
+        "drawCallsPerInstance": 1
+      }
+    }
+  ],
+  "verification": {
+    "fileCount": 12,
+    "totalBytes": 873428,
+    "everyModelReimported": true,
+    "embeddedTextures": true,
+    "externalResources": false,
+    "maxTriangles": 2228
+  }
+}

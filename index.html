@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Blox Survival · GLB Library</title>
+<script type="importmap">{"imports":{"three":"./vendor/three.module.min.js"}}</script>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#eef0e7;color:#263c35;font:15px system-ui,sans-serif}main{max-width:1120px;margin:auto;padding:24px}header{display:flex;justify-content:space-between;align-items:center;gap:20px}h1{font-size:28px;letter-spacing:-1px;margin:4px 0}p{line-height:1.6}.eyebrow{font-size:11px;font-weight:750;letter-spacing:2px;color:#667966}a{color:#21634b}select,button,.download{font:inherit;padding:11px 14px;border:1px solid #bac7b8;border-radius:10px;background:#fffdf5;color:#263c35;cursor:pointer}select{max-width:100%;flex:1;min-width:200px}button:hover,.download:hover{background:#e3ebd8}button:disabled{opacity:.5;cursor:wait}.toolbar,.actions{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}.download{text-decoration:none;background:#d9e9bd}#viewport{height:min(66vh,740px);min-height:350px;position:relative;border:1px solid #bac7b8;border-radius:24px;overflow:hidden;background:#f4f0df;box-shadow:0 12px 40px #284b3520}canvas{display:block;width:100%;height:100%;touch-action:none}#status{position:absolute;left:16px;bottom:16px;background:#fffdf5e8;border-radius:10px;padding:8px 12px;pointer-events:none;max-width:90%}#stats{font-size:13px;color:#526653}#testResult{white-space:pre-wrap;font-size:13px;line-height:1.6}code{overflow-wrap:anywhere}footer{border-top:1px solid #bac7b8;margin-top:24px;padding:16px 0;font-size:13px;color:#5a6c59}#url{display:block;margin:12px 0;user-select:all;font-size:12px}@media(max-width:600px){main{padding:16px}h1{font-size:23px}header{align-items:flex-start}#viewport{height:58vh;min-height:320px}button,.download{padding:10px 12px}.toolbar{margin:12px 0}}
+</style></head><body><main>
+<header><div><div class="eyebrow">FOREST GARDEN / SWEET KITCHEN</div><h1>Blox Survival · GLB Library</h1></div><a href="README.zh-CN.md">中文说明 ↗</a></header>
+<p>41 self-contained models. Orbit to inspect; pinch or scroll to zoom. This is an asset preview, ready for your Loopit game.</p>
+<div class="toolbar"><select id="model" aria-label="Choose model"></select><a class="download" id="download" download>Download GLB</a><button id="copy">Copy model URL</button></div>
+<div id="viewport"><div id="status" role="status">Loading…</div></div>
+<div class="actions" id="stageActions" hidden><button id="hole">Hide center tile</button><button id="shrink">Shrink to 8 × 8</button><button id="flip">Flip sample tile</button><button id="reset">Reset tiles</button></div>
+<div class="actions" id="animationActions" hidden><select id="animation" aria-label="Animation"></select></div>
+<p id="stats"></p><code id="url"></code>
+<div class="actions"><button id="check">Check all 41 GLBs</button><a class="download" href="manifest.json">Asset manifest</a></div><div id="testResult" role="status"></div>
+<footer>Tiles: 1 unit grid · Y up · 144 independent cells per stage. Runtime movement, collision, timers and effects are implemented in Loopit. <a href="CREDITS.md">Sources & licenses</a></footer>
+</main><script type="module" src="viewer.js"></script></body></html>

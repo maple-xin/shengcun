@@ -1,0 +1,661 @@
+{
+  "category": "kitchen",
+  "created": "2026-10-26",
+  "sources": [
+    {
+      "repo": "Tiny-Treats-Charming-Kitchen-1.0",
+      "slug": "tiny_treats_charming_kitchen_set",
+      "page": "https://tinytreats.itch.io/charming-kitchen"
+    },
+    {
+      "repo": "Tiny-Treats-Baked-Goods-1.0",
+      "slug": "tiny_treats_baked_goods_set",
+      "page": "https://tinytreats.itch.io/baked-goods"
+    }
+  ],
+  "assetCount": 15,
+  "assets": [
+    {
+      "id": "oven-stove",
+      "file": "models/kitchen/oven-stove.glb",
+      "originalFile": "stove.gltf",
+      "originalPath": "addons/tiny_treats_charming_kitchen_set/Assets/gltf/stove.gltf",
+      "sourcePack": "Tiny-Treats-Charming-Kitchen-1.0",
+      "sourcePage": "https://tinytreats.itch.io/charming-kitchen",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0",
+      "sourceUrl": "https://raw.githubusercontent.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0/main/addons/tiny_treats_charming_kitchen_set/Assets/gltf/stove.gltf",
+      "license": "CC0-1.0",
+      "conversion": "Lossless glTF 2.0 to GLB 2.0 packaging; all buffers and original PNG atlas embedded; meshes, UVs, materials, nodes, dimensions preserved.",
+      "bytes": 86560,
+      "sha256": "7d330de1c4680c8bae36d18ea6e0c0106933779b3edc230c05f56057c2cd402e",
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "animations": 0,
+      "bounds": {
+        "min": [
+          -1.0,
+          0.0,
+          -0.75
+        ],
+        "max": [
+          1.0,
+          1.3,
+          0.92623
+        ]
+      },
+      "dimensions": [
+        2.0,
+        1.3,
+        1.67623
+      ],
+      "triangles": 1356,
+      "meshObjects": 2,
+      "materials": 2,
+      "validated": "Imported successfully in Blender 5.2.2 LTS",
+      "label": "Oven Stove",
+      "upAxis": "Y",
+      "sourceScalePreserved": true
+    },
+    {
+      "id": "fridge",
+      "file": "models/kitchen/fridge.glb",
+      "originalFile": "fridge.gltf",
+      "originalPath": "addons/tiny_treats_charming_kitchen_set/Assets/gltf/fridge.gltf",
+      "sourcePack": "Tiny-Treats-Charming-Kitchen-1.0",
+      "sourcePage": "https://tinytreats.itch.io/charming-kitchen",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0",
+      "sourceUrl": "https://raw.githubusercontent.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0/main/addons/tiny_treats_charming_kitchen_set/Assets/gltf/fridge.gltf",
+      "license": "CC0-1.0",
+      "conversion": "Lossless glTF 2.0 to GLB 2.0 packaging; all buffers and original PNG atlas embedded; meshes, UVs, materials, nodes, dimensions preserved.",
+      "bytes": 64084,
+      "sha256": "cf9332d0eb48874c188727d536829aab0beb91db3a0a6c56c734c7053e76f04e",
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "animations": 0,
+      "bounds": {
+        "min": [
+          -1.0,
+          0.0,
+          -0.5
+        ],
+        "max": [
+          1.04,
+          3.0,
+          1.11638
+        ]
+      },
+      "dimensions": [
+        2.04,
+        3.0,
+        1.61638
+      ],
+      "triangles": 1024,
+      "meshObjects": 3,
+      "materials": 1,
+      "validated": "Imported successfully in Blender 5.2.2 LTS",
+      "label": "Fridge",
+      "upAxis": "Y",
+      "sourceScalePreserved": true
+    },
+    {
+      "id": "counter-drawers",
+      "file": "models/kitchen/counter-drawers.glb",
+      "originalFile": "countertop_straight_A.gltf",
+      "originalPath": "addons/tiny_treats_charming_kitchen_set/Assets/gltf/countertop_straight_A.gltf",
+      "sourcePack": "Tiny-Treats-Charming-Kitchen-1.0",
+      "sourcePage": "https://tinytreats.itch.io/charming-kitchen",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0",
+      "sourceUrl": "https://raw.githubusercontent.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0/main/addons/tiny_treats_charming_kitchen_set/Assets/gltf/countertop_straight_A.gltf",
+      "license": "CC0-1.0",
+      "conversion": "Lossless glTF 2.0 to GLB 2.0 packaging; all buffers and original PNG atlas embedded; meshes, UVs, materials, nodes, dimensions preserved.",
+      "bytes": 39532,
+      "sha256": "7b974e9cbabe76adafda33f71b79068e91a7f0d42b633a0f1a7eef90c1f16546",
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "animations": 0,
+      "bounds": {
+        "min": [
+          -1.0,
+          0.0,
+          -0.75
+        ],
+        "max": [
+          1.0,
+          1.0,
+          0.75135
+        ]
+      },
+      "dimensions": [
+        2.0,
+        1.0,
+        1.50135
+      ],
+      "triangles": 428,
+      "meshObjects": 1,
+      "materials": 1,
+      "validated": "Imported successfully in Blender 5.2.2 LTS",
+      "label": "Counter Drawers",
+      "upAxis": "Y",
+      "sourceScalePreserved": true
+    },
+    {
+      "id": "counter-cupboard",
+      "file": "models/kitchen/counter-cupboard.glb",
+      "originalFile": "countertop_straight_C.gltf",
+      "originalPath": "addons/tiny_treats_charming_kitchen_set/Assets/gltf/countertop_straight_C.gltf",
+      "sourcePack": "Tiny-Treats-Charming-Kitchen-1.0",
+      "sourcePage": "https://tinytreats.itch.io/charming-kitchen",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0",
+      "sourceUrl": "https://raw.githubusercontent.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0/main/addons/tiny_treats_charming_kitchen_set/Assets/gltf/countertop_straight_C.gltf",
+      "license": "CC0-1.0",
+      "conversion": "Lossless glTF 2.0 to GLB 2.0 packaging; all buffers and original PNG atlas embedded; meshes, UVs, materials, nodes, dimensions preserved.",
+      "bytes": 53568,
+      "sha256": "604a4b2117168fcc1ce59a94683d9c432a71110b1915ae98295c9228625b7205",
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "animations": 0,
+      "bounds": {
+        "min": [
+          -1.0,
+          0.0,
+          -0.75
+        ],
+        "max": [
+          1.0,
+          1.0,
+          0.75135
+        ]
+      },
+      "dimensions": [
+        2.0,
+        1.0,
+        1.50135
+      ],
+      "triangles": 794,
+      "meshObjects": 1,
+      "materials": 1,
+      "validated": "Imported successfully in Blender 5.2.2 LTS",
+      "label": "Counter Cupboard",
+      "upAxis": "Y",
+      "sourceScalePreserved": true
+    },
+    {
+      "id": "sink-counter",
+      "file": "models/kitchen/sink-counter.glb",
+      "originalFile": "countertop_sink.gltf",
+      "originalPath": "addons/tiny_treats_charming_kitchen_set/Assets/gltf/countertop_sink.gltf",
+      "sourcePack": "Tiny-Treats-Charming-Kitchen-1.0",
+      "sourcePage": "https://tinytreats.itch.io/charming-kitchen",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0",
+      "sourceUrl": "https://raw.githubusercontent.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0/main/addons/tiny_treats_charming_kitchen_set/Assets/gltf/countertop_sink.gltf",
+      "license": "CC0-1.0",
+      "conversion": "Lossless glTF 2.0 to GLB 2.0 packaging; all buffers and original PNG atlas embedded; meshes, UVs, materials, nodes, dimensions preserved.",
+      "bytes": 76596,
+      "sha256": "3ebb583b4cd0978303790256a8fd87008ef7e0b7a6965d4f6bccc7319fc57606",
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "animations": 0,
+      "bounds": {
+        "min": [
+          -1.0,
+          0.0,
+          -0.75
+        ],
+        "max": [
+          1.0,
+          1.75788,
+          0.75135
+        ]
+      },
+      "dimensions": [
+        2.0,
+        1.75788,
+        1.50135
+      ],
+      "triangles": 1308,
+      "meshObjects": 1,
+      "materials": 1,
+      "validated": "Imported successfully in Blender 5.2.2 LTS",
+      "label": "Sink Counter",
+      "upAxis": "Y",
+      "sourceScalePreserved": true
+    },
+    {
+      "id": "wall-cabinet",
+      "file": "models/kitchen/wall-cabinet.glb",
+      "originalFile": "wall_cabinet_straight.gltf",
+      "originalPath": "addons/tiny_treats_charming_kitchen_set/Assets/gltf/wall_cabinet_straight.gltf",
+      "sourcePack": "Tiny-Treats-Charming-Kitchen-1.0",
+      "sourcePage": "https://tinytreats.itch.io/charming-kitchen",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0",
+      "sourceUrl": "https://raw.githubusercontent.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0/main/addons/tiny_treats_charming_kitchen_set/Assets/gltf/wall_cabinet_straight.gltf",
+      "license": "CC0-1.0",
+      "conversion": "Lossless glTF 2.0 to GLB 2.0 packaging; all buffers and original PNG atlas embedded; meshes, UVs, materials, nodes, dimensions preserved.",
+      "bytes": 34408,
+      "sha256": "064ef63f46414c9df7aca0bdc7c83c5e057a4c8ebf520867e01af5f0f574a6df",
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "animations": 0,
+      "bounds": {
+        "min": [
+          -1.0,
+          0.0,
+          -0.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "dimensions": [
+        2.0,
+        1.0,
+        1.0
+      ],
+      "triangles": 296,
+      "meshObjects": 1,
+      "materials": 1,
+      "validated": "Imported successfully in Blender 5.2.2 LTS",
+      "label": "Wall Cabinet",
+      "upAxis": "Y",
+      "sourceScalePreserved": true
+    },
+    {
+      "id": "ingredient-jar",
+      "file": "models/kitchen/ingredient-jar.glb",
+      "originalFile": "container_kitchen_B_white.gltf",
+      "originalPath": "addons/tiny_treats_charming_kitchen_set/Assets/gltf/container_kitchen_B_white.gltf",
+      "sourcePack": "Tiny-Treats-Charming-Kitchen-1.0",
+      "sourcePage": "https://tinytreats.itch.io/charming-kitchen",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0",
+      "sourceUrl": "https://raw.githubusercontent.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0/main/addons/tiny_treats_charming_kitchen_set/Assets/gltf/container_kitchen_B_white.gltf",
+      "license": "CC0-1.0",
+      "conversion": "Lossless glTF 2.0 to GLB 2.0 packaging; all buffers and original PNG atlas embedded; meshes, UVs, materials, nodes, dimensions preserved.",
+      "bytes": 35400,
+      "sha256": "d6690f69899086707971257500d530d9a0c96ae0431007c9365db7ec8d6d2501",
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "animations": 0,
+      "bounds": {
+        "min": [
+          -0.20001,
+          0.0,
+          -0.2
+        ],
+        "max": [
+          0.19999,
+          0.39952,
+          0.2
+        ]
+      },
+      "dimensions": [
+        0.4,
+        0.39952,
+        0.4
+      ],
+      "triangles": 424,
+      "meshObjects": 1,
+      "materials": 1,
+      "validated": "Imported successfully in Blender 5.2.2 LTS",
+      "label": "Ingredient Jar",
+      "upAxis": "Y",
+      "sourceScalePreserved": true
+    },
+    {
+      "id": "kettle",
+      "file": "models/kitchen/kettle.glb",
+      "originalFile": "kettle.gltf",
+      "originalPath": "addons/tiny_treats_charming_kitchen_set/Assets/gltf/kettle.gltf",
+      "sourcePack": "Tiny-Treats-Charming-Kitchen-1.0",
+      "sourcePage": "https://tinytreats.itch.io/charming-kitchen",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0",
+      "sourceUrl": "https://raw.githubusercontent.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0/main/addons/tiny_treats_charming_kitchen_set/Assets/gltf/kettle.gltf",
+      "license": "CC0-1.0",
+      "conversion": "Lossless glTF 2.0 to GLB 2.0 packaging; all buffers and original PNG atlas embedded; meshes, UVs, materials, nodes, dimensions preserved.",
+      "bytes": 40096,
+      "sha256": "caab05574a5472c16f6de2725033022eb24d1f3bff4bf2e1442bf063d2449900",
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "animations": 0,
+      "bounds": {
+        "min": [
+          -0.43366,
+          0.0,
+          -0.3
+        ],
+        "max": [
+          0.37896,
+          0.59521,
+          0.3
+        ]
+      },
+      "dimensions": [
+        0.81262,
+        0.59521,
+        0.6
+      ],
+      "triangles": 587,
+      "meshObjects": 1,
+      "materials": 1,
+      "validated": "Imported successfully in Blender 5.2.2 LTS",
+      "label": "Kettle",
+      "upAxis": "Y",
+      "sourceScalePreserved": true
+    },
+    {
+      "id": "utensils-cup",
+      "file": "models/kitchen/utensils-cup.glb",
+      "originalFile": "utensils_cup.gltf",
+      "originalPath": "addons/tiny_treats_charming_kitchen_set/Assets/gltf/utensils_cup.gltf",
+      "sourcePack": "Tiny-Treats-Charming-Kitchen-1.0",
+      "sourcePage": "https://tinytreats.itch.io/charming-kitchen",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0",
+      "sourceUrl": "https://raw.githubusercontent.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0/main/addons/tiny_treats_charming_kitchen_set/Assets/gltf/utensils_cup.gltf",
+      "license": "CC0-1.0",
+      "conversion": "Lossless glTF 2.0 to GLB 2.0 packaging; all buffers and original PNG atlas embedded; meshes, UVs, materials, nodes, dimensions preserved.",
+      "bytes": 48228,
+      "sha256": "dd6d40c5b47f9c2070ccd60790d011c22de92120b4c692c81e8f289b8f7839ef",
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "animations": 0,
+      "bounds": {
+        "min": [
+          -0.35044,
+          0.0,
+          -0.2
+        ],
+        "max": [
+          0.29502,
+          0.83249,
+          0.2
+        ]
+      },
+      "dimensions": [
+        0.64546,
+        0.83249,
+        0.4
+      ],
+      "triangles": 734,
+      "meshObjects": 1,
+      "materials": 1,
+      "validated": "Imported successfully in Blender 5.2.2 LTS",
+      "label": "Utensils Cup",
+      "upAxis": "Y",
+      "sourceScalePreserved": true
+    },
+    {
+      "id": "floor-tile-module",
+      "file": "models/kitchen/floor-tile-module.glb",
+      "originalFile": "floor_tiles_kitchen.gltf",
+      "originalPath": "addons/tiny_treats_charming_kitchen_set/Assets/gltf/floor_tiles_kitchen.gltf",
+      "sourcePack": "Tiny-Treats-Charming-Kitchen-1.0",
+      "sourcePage": "https://tinytreats.itch.io/charming-kitchen",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0",
+      "sourceUrl": "https://raw.githubusercontent.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0/main/addons/tiny_treats_charming_kitchen_set/Assets/gltf/floor_tiles_kitchen.gltf",
+      "license": "CC0-1.0",
+      "conversion": "Lossless glTF 2.0 to GLB 2.0 packaging; all buffers and original PNG atlas embedded; meshes, UVs, materials, nodes, dimensions preserved.",
+      "bytes": 29636,
+      "sha256": "8588fb96bb9f991e8367a7256b4214ea7a4f672e6188b1181b8247a117723d5d",
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "animations": 0,
+      "bounds": {
+        "min": [
+          -1.0,
+          0.0,
+          -1.0
+        ],
+        "max": [
+          1.0,
+          0.5,
+          1.0
+        ]
+      },
+      "dimensions": [
+        2.0,
+        0.5,
+        2.0
+      ],
+      "triangles": 180,
+      "meshObjects": 1,
+      "materials": 1,
+      "validated": "Imported successfully in Blender 5.2.2 LTS",
+      "label": "Floor Tile Module",
+      "upAxis": "Y",
+      "sourceScalePreserved": true
+    },
+    {
+      "id": "window-wall",
+      "file": "models/kitchen/window-wall.glb",
+      "originalFile": "wall_tiles_kitchen_window.gltf",
+      "originalPath": "addons/tiny_treats_charming_kitchen_set/Assets/gltf/wall_tiles_kitchen_window.gltf",
+      "sourcePack": "Tiny-Treats-Charming-Kitchen-1.0",
+      "sourcePage": "https://tinytreats.itch.io/charming-kitchen",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0",
+      "sourceUrl": "https://raw.githubusercontent.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0/main/addons/tiny_treats_charming_kitchen_set/Assets/gltf/wall_tiles_kitchen_window.gltf",
+      "license": "CC0-1.0",
+      "conversion": "Lossless glTF 2.0 to GLB 2.0 packaging; all buffers and original PNG atlas embedded; meshes, UVs, materials, nodes, dimensions preserved.",
+      "bytes": 53660,
+      "sha256": "205950f565353a214dedc5098ea94c03783a7b17442c675b55208e10f78a9e01",
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "animations": 0,
+      "bounds": {
+        "min": [
+          -1.0,
+          -0.0,
+          -0.29919
+        ],
+        "max": [
+          1.0,
+          4.0,
+          0.30081
+        ]
+      },
+      "dimensions": [
+        2.0,
+        4.0,
+        0.6
+      ],
+      "triangles": 456,
+      "meshObjects": 1,
+      "materials": 2,
+      "validated": "Imported successfully in Blender 5.2.2 LTS",
+      "label": "Window Wall",
+      "upAxis": "Y",
+      "sourceScalePreserved": true
+    },
+    {
+      "id": "strawberry-cake",
+      "file": "models/kitchen/strawberry-cake.glb",
+      "originalFile": "cake_strawberry.gltf",
+      "originalPath": "addons/tiny_treats_baked_goods_set/Assets/gltf/cake_strawberry.gltf",
+      "sourcePack": "Tiny-Treats-Baked-Goods-1.0",
+      "sourcePage": "https://tinytreats.itch.io/baked-goods",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Baked-Goods-1.0",
+      "sourceUrl": "https://raw.githubusercontent.com/TinyTreats-Game-Assets/Tiny-Treats-Baked-Goods-1.0/main/addons/tiny_treats_baked_goods_set/Assets/gltf/cake_strawberry.gltf",
+      "license": "CC0-1.0",
+      "conversion": "Lossless glTF 2.0 to GLB 2.0 packaging; all buffers and original PNG atlas embedded; meshes, UVs, materials, nodes, dimensions preserved.",
+      "bytes": 99952,
+      "sha256": "c0c43e3388249313bb5898b19391d9d9e53e156bfa063b3b3b8e01f344d258fc",
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "animations": 0,
+      "bounds": {
+        "min": [
+          -0.60988,
+          0.0,
+          -0.60988
+        ],
+        "max": [
+          0.60988,
+          0.66869,
+          0.60988
+        ]
+      },
+      "dimensions": [
+        1.21976,
+        0.66869,
+        1.21976
+      ],
+      "triangles": 2336,
+      "meshObjects": 1,
+      "materials": 1,
+      "validated": "Imported successfully in Blender 5.2.2 LTS",
+      "label": "Strawberry Cake",
+      "upAxis": "Y",
+      "sourceScalePreserved": true
+    },
+    {
+      "id": "cupcake",
+      "file": "models/kitchen/cupcake.glb",
+      "originalFile": "cupcake.gltf",
+      "originalPath": "addons/tiny_treats_baked_goods_set/Assets/gltf/cupcake.gltf",
+      "sourcePack": "Tiny-Treats-Baked-Goods-1.0",
+      "sourcePage": "https://tinytreats.itch.io/baked-goods",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Baked-Goods-1.0",
+      "sourceUrl": "https://raw.githubusercontent.com/TinyTreats-Game-Assets/Tiny-Treats-Baked-Goods-1.0/main/addons/tiny_treats_baked_goods_set/Assets/gltf/cupcake.gltf",
+      "license": "CC0-1.0",
+      "conversion": "Lossless glTF 2.0 to GLB 2.0 packaging; all buffers and original PNG atlas embedded; meshes, UVs, materials, nodes, dimensions preserved.",
+      "bytes": 49312,
+      "sha256": "3c5b5be7ae3172adeabf2fd8c0be2c1af304ef167feb164af9f8153641d4c031",
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "animations": 0,
+      "bounds": {
+        "min": [
+          -0.18086,
+          -0.00553,
+          -0.18086
+        ],
+        "max": [
+          0.18086,
+          0.50471,
+          0.18086
+        ]
+      },
+      "dimensions": [
+        0.36172,
+        0.51024,
+        0.36172
+      ],
+      "triangles": 778,
+      "meshObjects": 1,
+      "materials": 1,
+      "validated": "Imported successfully in Blender 5.2.2 LTS",
+      "label": "Cupcake",
+      "upAxis": "Y",
+      "sourceScalePreserved": true
+    },
+    {
+      "id": "pink-donut",
+      "file": "models/kitchen/pink-donut.glb",
+      "originalFile": "donut_pink.gltf",
+      "originalPath": "addons/tiny_treats_baked_goods_set/Assets/gltf/donut_pink.gltf",
+      "sourcePack": "Tiny-Treats-Baked-Goods-1.0",
+      "sourcePage": "https://tinytreats.itch.io/baked-goods",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Baked-Goods-1.0",
+      "sourceUrl": "https://raw.githubusercontent.com/TinyTreats-Game-Assets/Tiny-Treats-Baked-Goods-1.0/main/addons/tiny_treats_baked_goods_set/Assets/gltf/donut_pink.gltf",
+      "license": "CC0-1.0",
+      "conversion": "Lossless glTF 2.0 to GLB 2.0 packaging; all buffers and original PNG atlas embedded; meshes, UVs, materials, nodes, dimensions preserved.",
+      "bytes": 47252,
+      "sha256": "2511e570431545c12a3d1e135a138abdd1ba7fc7994a3f64cf824235d7fe24d4",
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "animations": 0,
+      "bounds": {
+        "min": [
+          -0.20851,
+          0.0,
+          -0.20851
+        ],
+        "max": [
+          0.20851,
+          0.20472,
+          0.20851
+        ]
+      },
+      "dimensions": [
+        0.41702,
+        0.20472,
+        0.41702
+      ],
+      "triangles": 948,
+      "meshObjects": 1,
+      "materials": 1,
+      "validated": "Imported successfully in Blender 5.2.2 LTS",
+      "label": "Pink Donut",
+      "upAxis": "Y",
+      "sourceScalePreserved": true
+    },
+    {
+      "id": "cookie",
+      "file": "models/kitchen/cookie.glb",
+      "originalFile": "cookie.gltf",
+      "originalPath": "addons/tiny_treats_baked_goods_set/Assets/gltf/cookie.gltf",
+      "sourcePack": "Tiny-Treats-Baked-Goods-1.0",
+      "sourcePage": "https://tinytreats.itch.io/baked-goods",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Baked-Goods-1.0",
+      "sourceUrl": "https://raw.githubusercontent.com/TinyTreats-Game-Assets/Tiny-Treats-Baked-Goods-1.0/main/addons/tiny_treats_baked_goods_set/Assets/gltf/cookie.gltf",
+      "license": "CC0-1.0",
+      "conversion": "Lossless glTF 2.0 to GLB 2.0 packaging; all buffers and original PNG atlas embedded; meshes, UVs, materials, nodes, dimensions preserved.",
+      "bytes": 35660,
+      "sha256": "23b732f57d17e90dd491886f1c72be031ddc617032bdfbb6b4fdb02e842b6896",
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "animations": 0,
+      "bounds": {
+        "min": [
+          -0.24598,
+          0.00245,
+          -0.24592
+        ],
+        "max": [
+          0.24602,
+          0.166,
+          0.24586
+        ]
+      },
+      "dimensions": [
+        0.492,
+        0.16355,
+        0.49178
+      ],
+      "triangles": 508,
+      "meshObjects": 1,
+      "materials": 1,
+      "validated": "Imported successfully in Blender 5.2.2 LTS",
+      "label": "Cookie",
+      "upAxis": "Y",
+      "sourceScalePreserved": true
+    }
+  ],
+  "notes": [
+    "Official TinyTreats GitHub repositories linked by the Godot Asset Library; CC0 original LICENSE.txt preserved.",
+    "These are individual props, not a completed game arena. Do not merge disappearing tiles into scenery.",
+    "No mixer, standalone strawberry or rolling pin exists in the curated source packs; author separately if needed.",
+    "Original scale preserved. glTF Y-up."
+  ],
+  "author": "Isa Lousberg / Tiny Treats",
+  "validationSummary": {
+    "assets": 15,
+    "totalBytes": 793944,
+    "totalTriangles": 12157,
+    "allBlenderImportsPassed": true,
+    "allDependenciesEmbedded": true,
+    "axis": "Y-up (glTF)"
+  },
+  "archiveProvenance": [
+    {
+      "file": "charming-kitchen.zip",
+      "sha256": "6ef32f352d33fc2024120dc6c4c720e59c1231d3132fa670bee73af3d92b7554",
+      "url": "https://codeload.github.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0/zip/refs/heads/main"
+    },
+    {
+      "file": "baked-goods.zip",
+      "sha256": "a462685eb25f3779316dc79b931c443ca5de6604b31d729700c19468a22cd816",
+      "url": "https://codeload.github.com/TinyTreats-Game-Assets/Tiny-Treats-Baked-Goods-1.0/zip/refs/heads/main"
+    }
+  ]
+}

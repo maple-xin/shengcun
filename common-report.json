@@ -1,0 +1,96 @@
+{
+  "author": "Original modular add-ons",
+  "license": "CC0-1.0",
+  "models": [
+    {
+      "id": "tile_garden_cream",
+      "path": "models/common/tile_garden_cream.glb",
+      "role": "tile;1x1 grid cell;top surface at Y=0;pivot at cell top center",
+      "source": "Original modular models authored for this project",
+      "license": "CC0-1.0",
+      "units": "meters",
+      "up": "Y"
+    },
+    {
+      "id": "tile_garden_sage",
+      "path": "models/common/tile_garden_sage.glb",
+      "role": "tile;1x1 grid cell;top surface at Y=0;pivot at cell top center",
+      "source": "Original modular models authored for this project",
+      "license": "CC0-1.0",
+      "units": "meters",
+      "up": "Y"
+    },
+    {
+      "id": "tile_kitchen_vanilla",
+      "path": "models/common/tile_kitchen_vanilla.glb",
+      "role": "tile;1x1 grid cell;top surface at Y=0;pivot at cell top center",
+      "source": "Original modular models authored for this project",
+      "license": "CC0-1.0",
+      "units": "meters",
+      "up": "Y"
+    },
+    {
+      "id": "tile_kitchen_strawberry",
+      "path": "models/common/tile_kitchen_strawberry.glb",
+      "role": "tile;1x1 grid cell;top surface at Y=0;pivot at cell top center",
+      "source": "Original modular models authored for this project",
+      "license": "CC0-1.0",
+      "units": "meters",
+      "up": "Y"
+    },
+    {
+      "id": "hazard_rolling_pin",
+      "path": "models/common/hazard_rolling_pin.glb",
+      "role": "rolling obstacle;long axis X;pivot at center",
+      "source": "Original modular models authored for this project",
+      "license": "CC0-1.0",
+      "units": "meters",
+      "up": "Y"
+    },
+    {
+      "id": "hazard_sugar_cube",
+      "path": "models/common/hazard_sugar_cube.glb",
+      "role": "falling sugar bomb;bottom Y=0",
+      "source": "Original modular models authored for this project",
+      "license": "CC0-1.0",
+      "units": "meters",
+      "up": "Y"
+    },
+    {
+      "id": "hazard_strawberry",
+      "path": "models/common/hazard_strawberry.glb",
+      "role": "falling strawberry;bottom Y=0",
+      "source": "Original modular models authored for this project",
+      "license": "CC0-1.0",
+      "units": "meters",
+      "up": "Y"
+    },
+    {
+      "id": "hazard_meteor",
+      "path": "models/common/hazard_meteor.glb",
+      "role": "falling rock;add fire trail, warnings and shockwaves at runtime",
+      "source": "Original modular models authored for this project",
+      "license": "CC0-1.0",
+      "units": "meters",
+      "up": "Y"
+    },
+    {
+      "id": "prop_stand_mixer",
+      "path": "models/common/prop_stand_mixer.glb",
+      "role": "kitchen backdrop;bottom Y=0;static decorative mixer",
+      "source": "Original modular models authored for this project",
+      "license": "CC0-1.0",
+      "units": "meters",
+      "up": "Y"
+    },
+    {
+      "id": "prop_flower_patch",
+      "path": "models/common/prop_flower_patch.glb",
+      "role": "small decorative daisy clump;bottom Y=0",
+      "source": "Original modular models authored for this project",
+      "license": "CC0-1.0",
+      "units": "meters",
+      "up": "Y"
+    }
+  ]
+}
