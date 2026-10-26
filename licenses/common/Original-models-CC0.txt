@@ -1,0 +1,4 @@
+Original tile, mixer and hazard models in models/common are dedicated to the public domain under CC0 1.0 Universal.
+https://creativecommons.org/publicdomain/zero/1.0/
+Source script: tools/build_common.py
+Kenney character is separately licensed; see Kenney-Blocky-Characters-License.txt.
