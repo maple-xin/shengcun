@@ -1,0 +1,20 @@
+{
+  "modelCount": 41,
+  "browserLoader": "Three.js GLTFLoader 0.180.0",
+  "browserResult": "41/41 GLBs loaded successfully",
+  "stageChecks": [
+    "144 independent tile roots in each stage",
+    "Tile hide/reset matrix checks passed",
+    "8x8 shrink visually inspected",
+    "Both complete stages visually inspected"
+  ],
+  "playerChecks": [
+    "27 clips preserved per character",
+    "Boy idle and walk visually inspected"
+  ],
+  "limitations": [
+    "Not a Loopit runtime test",
+    "Mobile device frame rate not measured"
+  ],
+  "date": "2026-10-26"
+}

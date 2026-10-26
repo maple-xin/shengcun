@@ -1,0 +1,12 @@
+Create the first playable forest level of a mobile portrait 3D Blox survival game using these GLBs:
+Forest stage: https://YOURNAME.github.io/YOURREPO/models/stages/forest_stage.glb
+Animated player: https://YOURNAME.github.io/YOURREPO/models/common/player-boy.glb
+Asset manifest: https://YOURNAME.github.io/YOURREPO/manifest.json
+
+Load the existing stage artwork. Preserve its 144 separate tile parent nodes, named tile_00_00 through tile_11_11. Y is up, cell spacing is 1, tile top is Y=0, and the pivot is at the top center. Load the player separately at player_spawn, initially at scale 0.5. Use idle/walk/sprint/die animation clips. Do not rebuild the scene with placeholder primitives or add another solid floor under it.
+
+Implement a reliable thumb joystick with camera-relative movement, a stable elevated camera, simple character collision and one collider per active tile. Start with the complete 12x12 board visible. Survive 20 seconds. At 6 seconds and 13 seconds, warn and remove a small set of outer-edge tiles; preserve a connected, generous safe area. Warn for at least 1.2 seconds with color, shaking and sound before tiles flip and drop. Disable each removed tile's collider. Falling below the board ends the run. Provide clear success/failure feedback and one-tap retry. Countdown starts after a short ready sequence. No jump button is needed.
+
+Keep the HUD compact: level and countdown at the top, joystick in a bottom safe area. Do not cover the arena with quest cards. Preserve a clear view of the player and holes. Keep the kitchen visibly locked until all five forest levels are passed. Save level completion locally. For this step, make only forest level 1 playable; do not invent the remaining levels yet. Later planned durations are forest 20/25/30/35/40 seconds and kitchen 25/30/30/35/40 seconds. No challenge may exceed 40 seconds.
+
+For mobile performance, instance the repeated tile meshes while retaining per-cell control; integration/tile-grid.js in this pack is an optional Three.js helper. Use lightweight lighting and restrained shadows. Verify movement, hole collision, tile removal, survival success and retry on a narrow phone viewport before adding content.

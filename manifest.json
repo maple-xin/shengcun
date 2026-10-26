@@ -1,0 +1,1337 @@
+{
+  "title": "Blox Survival GLB Pack",
+  "version": "1.0.0",
+  "created": "2026-10-26",
+  "assetCount": 41,
+  "totalBytes": 4772388,
+  "maxChallengeSeconds": 40,
+  "models": [
+    {
+      "id": "common/hazard_meteor",
+      "label": "Hazard Meteor",
+      "group": "common",
+      "path": "models/common/hazard_meteor.glb",
+      "license": "CC0-1.0",
+      "bytes": 10392,
+      "sha256": "72084ebd2e8f0449d2a61423671efc8d7bea83a829e4c2cc2cfd7e7ff78c73b1",
+      "triangles": 80,
+      "meshNodes": 1,
+      "materials": 2,
+      "embeddedImages": 0,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -0.3657688498497009,
+          0.03403642773628235,
+          -0.3306436538696289
+        ],
+        "max": [
+          0.37887802720069885,
+          0.7119670212268829,
+          0.38799330592155457
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "role": "falling rock;add fire trail, warnings and shockwaves at runtime"
+    },
+    {
+      "id": "common/hazard_rolling_pin",
+      "label": "Hazard Rolling Pin",
+      "group": "common",
+      "path": "models/common/hazard_rolling_pin.glb",
+      "license": "CC0-1.0",
+      "bytes": 105192,
+      "sha256": "c93dc7e70ee0abdb9726cf94183ee654e35c3f84c436ca92a626415404b7827d",
+      "triangles": 1612,
+      "meshNodes": 2,
+      "materials": 2,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -1.0900000276391857,
+          -0.14500010801731913,
+          -0.14499999582767487
+        ],
+        "max": [
+          1.090000311501446,
+          0.14500010801731913,
+          0.14499999582767487
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "role": "rolling obstacle;long axis X;pivot at center"
+    },
+    {
+      "id": "common/hazard_strawberry",
+      "label": "Hazard Strawberry",
+      "group": "common",
+      "path": "models/common/hazard_strawberry.glb",
+      "license": "CC0-1.0",
+      "bytes": 113200,
+      "sha256": "7baab4821c5866686f1b7eff783a8b5b258a5da3ac5449d043a237e410f3816e",
+      "triangles": 3460,
+      "meshNodes": 3,
+      "materials": 3,
+      "embeddedImages": 0,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -0.3198585835392139,
+          0.0,
+          -0.2611643858253956
+        ],
+        "max": [
+          0.354691434637376,
+          0.8119999766349792,
+          0.2603626810014248
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "role": "falling strawberry;bottom Y=0"
+    },
+    {
+      "id": "common/hazard_sugar_cube",
+      "label": "Hazard Sugar Cube",
+      "group": "common",
+      "path": "models/common/hazard_sugar_cube.glb",
+      "license": "CC0-1.0",
+      "bytes": 96820,
+      "sha256": "5dcc12ecd60433dc1b68b9839990be399582bc9a7de804395fa0fe48c06e6d59",
+      "triangles": 188,
+      "meshNodes": 1,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -0.30000001192092896,
+          0.0,
+          -0.30000001192092896
+        ],
+        "max": [
+          0.30000001192092896,
+          0.6000000238418579,
+          0.30000001192092896
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "role": "falling sugar bomb;bottom Y=0"
+    },
+    {
+      "id": "common/player-boy",
+      "label": "Player Boy",
+      "group": "common",
+      "path": "models/common/player-boy.glb",
+      "license": "CC0-1.0",
+      "bytes": 129068,
+      "sha256": "559cc12de19db927d973836aa2dcbb7d131c27b0d33d779036d1a76b13dbca6e",
+      "triangles": 72,
+      "meshNodes": 6,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -0.8000000117627868,
+          0.0,
+          -0.4
+        ],
+        "max": [
+          0.8000001059604644,
+          2.7,
+          0.4
+        ]
+      },
+      "animations": [
+        "static",
+        "idle",
+        "walk",
+        "sprint",
+        "sit",
+        "drive",
+        "die",
+        "pick-up",
+        "emote-yes",
+        "emote-no",
+        "holding-right",
+        "holding-left",
+        "holding-both",
+        "holding-right-shoot",
+        "holding-left-shoot",
+        "holding-both-shoot",
+        "attack-melee-right",
+        "attack-melee-left",
+        "attack-kick-right",
+        "attack-kick-left",
+        "interact-right",
+        "interact-left",
+        "wheelchair-sit",
+        "wheelchair-move-forward",
+        "wheelchair-move-back",
+        "wheelchair-move-left",
+        "wheelchair-move-right"
+      ],
+      "tileNodes": 0,
+      "author": "Kenney",
+      "sourcePage": "https://kenney.nl/assets/blocky-characters",
+      "originalFile": "character-b.glb",
+      "recommendedScale": 0.5
+    },
+    {
+      "id": "common/player-girl",
+      "label": "Player Girl",
+      "group": "common",
+      "path": "models/common/player-girl.glb",
+      "license": "CC0-1.0",
+      "bytes": 127972,
+      "sha256": "af17bcd58c966f690fb920d85243f8dd7ecb60f7c9431d2800f9555f77e7db08",
+      "triangles": 72,
+      "meshNodes": 6,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -0.7999998927627869,
+          0.0,
+          -0.4
+        ],
+        "max": [
+          0.8000001059604644,
+          2.7,
+          0.4
+        ]
+      },
+      "animations": [
+        "static",
+        "idle",
+        "walk",
+        "sprint",
+        "sit",
+        "drive",
+        "die",
+        "pick-up",
+        "emote-yes",
+        "emote-no",
+        "holding-right",
+        "holding-left",
+        "holding-both",
+        "holding-right-shoot",
+        "holding-left-shoot",
+        "holding-both-shoot",
+        "attack-melee-right",
+        "attack-melee-left",
+        "attack-kick-right",
+        "attack-kick-left",
+        "interact-right",
+        "interact-left",
+        "wheelchair-sit",
+        "wheelchair-move-forward",
+        "wheelchair-move-back",
+        "wheelchair-move-left",
+        "wheelchair-move-right"
+      ],
+      "tileNodes": 0,
+      "author": "Kenney",
+      "sourcePage": "https://kenney.nl/assets/blocky-characters",
+      "originalFile": "character-e.glb",
+      "recommendedScale": 0.5
+    },
+    {
+      "id": "common/prop_flower_patch",
+      "label": "Prop Flower Patch",
+      "group": "common",
+      "path": "models/common/prop_flower_patch.glb",
+      "license": "CC0-1.0",
+      "bytes": 92568,
+      "sha256": "d63adc717584f50274d560b4c28245953555859b64f07d723f36361af6e6c876",
+      "triangles": 2720,
+      "meshNodes": 3,
+      "materials": 3,
+      "embeddedImages": 0,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -0.21192853897809982,
+          0.0,
+          -0.21030287444591522
+        ],
+        "max": [
+          0.18199999257922173,
+          0.24300000071525574,
+          0.1776030957698822
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "role": "small decorative daisy clump;bottom Y=0"
+    },
+    {
+      "id": "common/prop_stand_mixer",
+      "label": "Prop Stand Mixer",
+      "group": "common",
+      "path": "models/common/prop_stand_mixer.glb",
+      "license": "CC0-1.0",
+      "bytes": 101752,
+      "sha256": "61205b49b72d57afa9bd60906b6ca449c4cf24c5befc88218e27f6f3bcd22c95",
+      "triangles": 3964,
+      "meshNodes": 2,
+      "materials": 2,
+      "embeddedImages": 0,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -0.3700000047683716,
+          0.0,
+          -0.375
+        ],
+        "max": [
+          0.3700000047683716,
+          1.0749999843537807,
+          0.43000002205371857
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "role": "kitchen backdrop;bottom Y=0;static decorative mixer"
+    },
+    {
+      "id": "common/tile_garden_cream",
+      "label": "Tile Garden Cream",
+      "group": "common",
+      "path": "models/common/tile_garden_cream.glb",
+      "license": "CC0-1.0",
+      "bytes": 153496,
+      "sha256": "d98ae6848ee303820e334def0151ade470b276f282d24f2571ff322f3ac03766",
+      "triangles": 376,
+      "meshNodes": 2,
+      "materials": 2,
+      "embeddedImages": 2,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -0.48500001430511475,
+          -0.2749999985098839,
+          -0.48500001430511475
+        ],
+        "max": [
+          0.48500001430511475,
+          0.0,
+          0.48500001430511475
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "role": "tile;1x1 grid cell;top surface at Y=0;pivot at cell top center"
+    },
+    {
+      "id": "common/tile_garden_sage",
+      "label": "Tile Garden Sage",
+      "group": "common",
+      "path": "models/common/tile_garden_sage.glb",
+      "license": "CC0-1.0",
+      "bytes": 150524,
+      "sha256": "732d8271de770d43f1e14138ed1787c95a93747fe75171dc6de635b8c59948ab",
+      "triangles": 376,
+      "meshNodes": 2,
+      "materials": 2,
+      "embeddedImages": 2,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -0.48500001430511475,
+          -0.2749999985098839,
+          -0.48500001430511475
+        ],
+        "max": [
+          0.48500001430511475,
+          0.0,
+          0.48500001430511475
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "role": "tile;1x1 grid cell;top surface at Y=0;pivot at cell top center"
+    },
+    {
+      "id": "common/tile_kitchen_strawberry",
+      "label": "Tile Kitchen Strawberry",
+      "group": "common",
+      "path": "models/common/tile_kitchen_strawberry.glb",
+      "license": "CC0-1.0",
+      "bytes": 204776,
+      "sha256": "43a9f3e889b63e60cbc5a71ddf0bb5be2d29ec9611dfcba90eb4ac3e68eac280",
+      "triangles": 752,
+      "meshNodes": 3,
+      "materials": 3,
+      "embeddedImages": 3,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -0.48500001430511475,
+          -0.2799999937415123,
+          -0.48500001430511475
+        ],
+        "max": [
+          0.48500001430511475,
+          0.0,
+          0.48500001430511475
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "role": "tile;1x1 grid cell;top surface at Y=0;pivot at cell top center"
+    },
+    {
+      "id": "common/tile_kitchen_vanilla",
+      "label": "Tile Kitchen Vanilla",
+      "group": "common",
+      "path": "models/common/tile_kitchen_vanilla.glb",
+      "license": "CC0-1.0",
+      "bytes": 207996,
+      "sha256": "7a9e584200f57c81267066aef035ec4077d1b9d59c41c0156e1cc5850d0314cc",
+      "triangles": 752,
+      "meshNodes": 3,
+      "materials": 3,
+      "embeddedImages": 3,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -0.48500001430511475,
+          -0.2799999937415123,
+          -0.48500001430511475
+        ],
+        "max": [
+          0.48500001430511475,
+          0.0,
+          0.48500001430511475
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "role": "tile;1x1 grid cell;top surface at Y=0;pivot at cell top center"
+    },
+    {
+      "id": "forest/bush-flat",
+      "label": "Bush Flat",
+      "group": "forest",
+      "path": "models/forest/bush-flat.glb",
+      "license": "CC0-1.0",
+      "bytes": 56960,
+      "sha256": "1007e85ce3ac0b07b53dfcb28b29a9df47cb19dd1db9f448ecf1ed10c788adb9",
+      "triangles": 240,
+      "meshNodes": 1,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -0.8416680693626404,
+          -0.026114314794540405,
+          -0.8416680097579956
+        ],
+        "max": [
+          0.8416680097579956,
+          0.7774202227592468,
+          0.8416680693626404
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "originalFile": "Bush_3_B_Color1.gltf",
+      "originalNode": "Bush_3_B_Color1",
+      "author": "Kay Lousberg",
+      "sourcePage": "https://kaylousberg.itch.io/kaykit-forest"
+    },
+    {
+      "id": "forest/bush-round",
+      "label": "Bush Round",
+      "group": "forest",
+      "path": "models/forest/bush-round.glb",
+      "license": "CC0-1.0",
+      "bytes": 66868,
+      "sha256": "8cb2a9fabade06dd7919acc318ea6b0c3ce58cf573fe810bee607c53c2929bdc",
+      "triangles": 552,
+      "meshNodes": 1,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -0.8318043351173401,
+          -0.012356013059616089,
+          -0.6059057116508484
+        ],
+        "max": [
+          0.7433373928070068,
+          0.7960658073425293,
+          0.7106500864028931
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "originalFile": "Bush_1_E_Color1.gltf",
+      "originalNode": "Bush_1_E_Color1",
+      "author": "Kay Lousberg",
+      "sourcePage": "https://kaylousberg.itch.io/kaykit-forest"
+    },
+    {
+      "id": "forest/grass-cluster",
+      "label": "Grass Cluster",
+      "group": "forest",
+      "path": "models/forest/grass-cluster.glb",
+      "license": "CC0-1.0",
+      "bytes": 74756,
+      "sha256": "c207d743ad692a1112508d13a51b078a72fbc8808fa2ea0e0ee84e2beedd35d4",
+      "triangles": 528,
+      "meshNodes": 1,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -0.5727711319923401,
+          -0.04773612692952156,
+          -0.7120615839958191
+        ],
+        "max": [
+          0.5317271947860718,
+          0.8874897360801697,
+          0.6543588042259216
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "originalFile": "Grass_2_D_Color1.gltf",
+      "originalNode": "Grass_2_D_Color1",
+      "author": "Kay Lousberg",
+      "sourcePage": "https://kaylousberg.itch.io/kaykit-forest"
+    },
+    {
+      "id": "forest/rock-angular",
+      "label": "Rock Angular",
+      "group": "forest",
+      "path": "models/forest/rock-angular.glb",
+      "license": "CC0-1.0",
+      "bytes": 53408,
+      "sha256": "c3f93264dd4acfd7d9e7f644cfcac70ac846589fccba59e7f119d7ee18b59f70",
+      "triangles": 108,
+      "meshNodes": 1,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -0.6476109027862549,
+          4.047247057314962e-05,
+          -0.6476311087608337
+        ],
+        "max": [
+          0.6476513743400574,
+          1.326242446899414,
+          0.6476311087608337
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "originalFile": "Rock_2_C_Color1.gltf",
+      "originalNode": "Rock_2_C_Color1",
+      "author": "Kay Lousberg",
+      "sourcePage": "https://kaylousberg.itch.io/kaykit-forest"
+    },
+    {
+      "id": "forest/rock-low",
+      "label": "Rock Low",
+      "group": "forest",
+      "path": "models/forest/rock-low.glb",
+      "license": "CC0-1.0",
+      "bytes": 54544,
+      "sha256": "b08ccb4a4566700b3cfa1583b97572c6da5dcfdc65d2f97bbd72ba9734643145",
+      "triangles": 84,
+      "meshNodes": 1,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -0.5564267039299011,
+          -0.5915006995201111,
+          -0.5834609866142273
+        ],
+        "max": [
+          0.5888480544090271,
+          0.696137011051178,
+          0.5976832509040833
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "originalFile": "Rock_3_E_Color1.gltf",
+      "originalNode": "Rock_3_E_Color1",
+      "author": "Kay Lousberg",
+      "sourcePage": "https://kaylousberg.itch.io/kaykit-forest"
+    },
+    {
+      "id": "forest/rock-round",
+      "label": "Rock Round",
+      "group": "forest",
+      "path": "models/forest/rock-round.glb",
+      "license": "CC0-1.0",
+      "bytes": 54848,
+      "sha256": "ebb123988261329550069fdf6a28e3af8717235a30c509bf2728d8340b16ed9e",
+      "triangles": 84,
+      "meshNodes": 1,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -0.38679447770118713,
+          0.0,
+          -0.6247491836547852
+        ],
+        "max": [
+          0.5402669906616211,
+          1.129973292350769,
+          0.5318676829338074
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "originalFile": "Rock_1_D_Color1.gltf",
+      "originalNode": "Rock_1_D_Color1",
+      "author": "Kay Lousberg",
+      "sourcePage": "https://kaylousberg.itch.io/kaykit-forest"
+    },
+    {
+      "id": "forest/tree-fir-large",
+      "label": "Tree Fir Large",
+      "group": "forest",
+      "path": "models/forest/tree-fir-large.glb",
+      "license": "CC0-1.0",
+      "bytes": 81220,
+      "sha256": "eb773bedb07e1d475a7e84aaba9aa3857310dcd40dc9b11879845cfb9249ff46",
+      "triangles": 982,
+      "meshNodes": 1,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -1.7309060096740723,
+          -0.3565221428871155,
+          -1.5473430156707764
+        ],
+        "max": [
+          2.004253625869751,
+          10.417509078979492,
+          1.3217493295669556
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "originalFile": "Tree_4_C_Color1.gltf",
+      "originalNode": "Tree_4_C_Color1",
+      "author": "Kay Lousberg",
+      "sourcePage": "https://kaylousberg.itch.io/kaykit-forest"
+    },
+    {
+      "id": "forest/tree-fir-small",
+      "label": "Tree Fir Small",
+      "group": "forest",
+      "path": "models/forest/tree-fir-small.glb",
+      "license": "CC0-1.0",
+      "bytes": 62648,
+      "sha256": "7e182cfe502dfb48595e67e015a9e1877e1f170721a2ff6f2ee275fd3caeac8e",
+      "triangles": 404,
+      "meshNodes": 1,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -0.9600079655647278,
+          -0.34212493896484375,
+          -1.0196812152862549
+        ],
+        "max": [
+          1.0473434925079346,
+          4.932270050048828,
+          0.9846721291542053
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "originalFile": "Tree_4_A_Color1.gltf",
+      "originalNode": "Tree_4_A_Color1",
+      "author": "Kay Lousberg",
+      "sourcePage": "https://kaylousberg.itch.io/kaykit-forest"
+    },
+    {
+      "id": "forest/tree-flat-large",
+      "label": "Tree Flat Large",
+      "group": "forest",
+      "path": "models/forest/tree-flat-large.glb",
+      "license": "CC0-1.0",
+      "bytes": 122972,
+      "sha256": "ab74d1051f297f4e23cff0fd8621c5e1472040776ef89e799a31a358faceb144",
+      "triangles": 2228,
+      "meshNodes": 1,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -3.238947868347168,
+          -0.3923197388648987,
+          -1.8776136636734009
+        ],
+        "max": [
+          2.393292188644409,
+          5.399654388427734,
+          2.747124195098877
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "originalFile": "Tree_3_C_Color1.gltf",
+      "originalNode": "Tree_3_C_Color1",
+      "author": "Kay Lousberg",
+      "sourcePage": "https://kaylousberg.itch.io/kaykit-forest"
+    },
+    {
+      "id": "forest/tree-flat-small",
+      "label": "Tree Flat Small",
+      "group": "forest",
+      "path": "models/forest/tree-flat-small.glb",
+      "license": "CC0-1.0",
+      "bytes": 80172,
+      "sha256": "5c11a0e199507f7d9de6890ffdb88a5898bc70d7de0cc97645402613aa744c09",
+      "triangles": 978,
+      "meshNodes": 1,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -1.552119255065918,
+          -0.26131799817085266,
+          -1.5465991497039795
+        ],
+        "max": [
+          1.5410791635513306,
+          3.245279550552368,
+          1.5465989112854004
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "originalFile": "Tree_3_A_Color1.gltf",
+      "originalNode": "Tree_3_A_Color1",
+      "author": "Kay Lousberg",
+      "sourcePage": "https://kaylousberg.itch.io/kaykit-forest"
+    },
+    {
+      "id": "forest/tree-round-large",
+      "label": "Tree Round Large",
+      "group": "forest",
+      "path": "models/forest/tree-round-large.glb",
+      "license": "CC0-1.0",
+      "bytes": 97308,
+      "sha256": "a898e1edc044f144ee86de2525a48d289ff0c14c59ff534d05814cdce209697f",
+      "triangles": 1364,
+      "meshNodes": 1,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -2.745804786682129,
+          -0.3923197388648987,
+          -2.8766753673553467
+        ],
+        "max": [
+          3.945490837097168,
+          7.42193078994751,
+          2.8766770362854004
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "originalFile": "Tree_1_C_Color1.gltf",
+      "originalNode": "Tree_1_C_Color1",
+      "author": "Kay Lousberg",
+      "sourcePage": "https://kaylousberg.itch.io/kaykit-forest"
+    },
+    {
+      "id": "forest/tree-round-small",
+      "label": "Tree Round Small",
+      "group": "forest",
+      "path": "models/forest/tree-round-small.glb",
+      "license": "CC0-1.0",
+      "bytes": 67724,
+      "sha256": "7799a8f8b1dd85e77767e66ed4ec2aa61b5e8477be79f52bbfe6a48af7d4f558",
+      "triangles": 530,
+      "meshNodes": 1,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -1.9345909357070923,
+          -0.26131799817085266,
+          -1.6255630254745483
+        ],
+        "max": [
+          1.2464021444320679,
+          3.899381160736084,
+          1.6255637407302856
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "originalFile": "Tree_1_A_Color1.gltf",
+      "originalNode": "Tree_1_A_Color1",
+      "author": "Kay Lousberg",
+      "sourcePage": "https://kaylousberg.itch.io/kaykit-forest"
+    },
+    {
+      "id": "kitchen/cookie",
+      "label": "Cookie",
+      "group": "kitchen",
+      "path": "models/kitchen/cookie.glb",
+      "license": "CC0-1.0",
+      "bytes": 35660,
+      "sha256": "23b732f57d17e90dd491886f1c72be031ddc617032bdfbb6b4fdb02e842b6896",
+      "triangles": 508,
+      "meshNodes": 1,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -0.24597828090190887,
+          0.0024536587297916412,
+          -0.2459205538034439
+        ],
+        "max": [
+          0.24601969122886658,
+          0.16599705815315247,
+          0.24586164951324463
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "sourcePage": "https://tinytreats.itch.io/baked-goods",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Baked-Goods-1.0",
+      "originalFile": "cookie.gltf"
+    },
+    {
+      "id": "kitchen/counter-cupboard",
+      "label": "Counter Cupboard",
+      "group": "kitchen",
+      "path": "models/kitchen/counter-cupboard.glb",
+      "license": "CC0-1.0",
+      "bytes": 53568,
+      "sha256": "604a4b2117168fcc1ce59a94683d9c432a71110b1915ae98295c9228625b7205",
+      "triangles": 794,
+      "meshNodes": 1,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -1.0,
+          0.0,
+          -0.75
+        ],
+        "max": [
+          1.0,
+          1.0,
+          0.7513467669487
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "sourcePage": "https://tinytreats.itch.io/charming-kitchen",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0",
+      "originalFile": "countertop_straight_C.gltf"
+    },
+    {
+      "id": "kitchen/counter-drawers",
+      "label": "Counter Drawers",
+      "group": "kitchen",
+      "path": "models/kitchen/counter-drawers.glb",
+      "license": "CC0-1.0",
+      "bytes": 39532,
+      "sha256": "7b974e9cbabe76adafda33f71b79068e91a7f0d42b633a0f1a7eef90c1f16546",
+      "triangles": 428,
+      "meshNodes": 1,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -1.0,
+          0.0,
+          -0.75
+        ],
+        "max": [
+          1.0,
+          1.0,
+          0.7513467669487
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "sourcePage": "https://tinytreats.itch.io/charming-kitchen",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0",
+      "originalFile": "countertop_straight_A.gltf"
+    },
+    {
+      "id": "kitchen/cupcake",
+      "label": "Cupcake",
+      "group": "kitchen",
+      "path": "models/kitchen/cupcake.glb",
+      "license": "CC0-1.0",
+      "bytes": 49312,
+      "sha256": "3c5b5be7ae3172adeabf2fd8c0be2c1af304ef167feb164af9f8153641d4c031",
+      "triangles": 778,
+      "meshNodes": 1,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -0.180861696600914,
+          -0.005530200432986021,
+          -0.1808626800775528
+        ],
+        "max": [
+          0.18086369335651398,
+          0.5047057867050171,
+          0.1808626651763916
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "sourcePage": "https://tinytreats.itch.io/baked-goods",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Baked-Goods-1.0",
+      "originalFile": "cupcake.gltf"
+    },
+    {
+      "id": "kitchen/floor-tile-module",
+      "label": "Floor Tile Module",
+      "group": "kitchen",
+      "path": "models/kitchen/floor-tile-module.glb",
+      "license": "CC0-1.0",
+      "bytes": 29636,
+      "sha256": "8588fb96bb9f991e8367a7256b4214ea7a4f672e6188b1181b8247a117723d5d",
+      "triangles": 180,
+      "meshNodes": 1,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -1,
+          0,
+          -1
+        ],
+        "max": [
+          1,
+          0.5,
+          1
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "sourcePage": "https://tinytreats.itch.io/charming-kitchen",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0",
+      "originalFile": "floor_tiles_kitchen.gltf"
+    },
+    {
+      "id": "kitchen/fridge",
+      "label": "Fridge",
+      "group": "kitchen",
+      "path": "models/kitchen/fridge.glb",
+      "license": "CC0-1.0",
+      "bytes": 64084,
+      "sha256": "cf9332d0eb48874c188727d536829aab0beb91db3a0a6c56c734c7053e76f04e",
+      "triangles": 1024,
+      "meshNodes": 3,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -1.0,
+          0.0,
+          -0.5
+        ],
+        "max": [
+          1.040000557899475,
+          3.0,
+          1.1163798570632935
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "sourcePage": "https://tinytreats.itch.io/charming-kitchen",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0",
+      "originalFile": "fridge.gltf"
+    },
+    {
+      "id": "kitchen/ingredient-jar",
+      "label": "Ingredient Jar",
+      "group": "kitchen",
+      "path": "models/kitchen/ingredient-jar.glb",
+      "license": "CC0-1.0",
+      "bytes": 35400,
+      "sha256": "d6690f69899086707971257500d530d9a0c96ae0431007c9365db7ec8d6d2501",
+      "triangles": 424,
+      "meshNodes": 1,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -0.2000078409910202,
+          0.0,
+          -0.19999949634075165
+        ],
+        "max": [
+          0.19999118149280548,
+          0.39952147006988525,
+          0.1999996155500412
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "sourcePage": "https://tinytreats.itch.io/charming-kitchen",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0",
+      "originalFile": "container_kitchen_B_white.gltf"
+    },
+    {
+      "id": "kitchen/kettle",
+      "label": "Kettle",
+      "group": "kitchen",
+      "path": "models/kitchen/kettle.glb",
+      "license": "CC0-1.0",
+      "bytes": 40096,
+      "sha256": "caab05574a5472c16f6de2725033022eb24d1f3bff4bf2e1442bf063d2449900",
+      "triangles": 587,
+      "meshNodes": 1,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -0.43365728855133057,
+          0.0,
+          -0.3000001609325409
+        ],
+        "max": [
+          0.37896135449409485,
+          0.5952081680297852,
+          0.3000001609325409
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "sourcePage": "https://tinytreats.itch.io/charming-kitchen",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0",
+      "originalFile": "kettle.gltf"
+    },
+    {
+      "id": "kitchen/oven-stove",
+      "label": "Oven Stove",
+      "group": "kitchen",
+      "path": "models/kitchen/oven-stove.glb",
+      "license": "CC0-1.0",
+      "bytes": 86560,
+      "sha256": "7d330de1c4680c8bae36d18ea6e0c0106933779b3edc230c05f56057c2cd402e",
+      "triangles": 1356,
+      "meshNodes": 2,
+      "materials": 2,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -1.0,
+          0.0,
+          -0.7500004172325134
+        ],
+        "max": [
+          1.0,
+          1.2999999523162842,
+          0.926233172416687
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "sourcePage": "https://tinytreats.itch.io/charming-kitchen",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0",
+      "originalFile": "stove.gltf"
+    },
+    {
+      "id": "kitchen/pink-donut",
+      "label": "Pink Donut",
+      "group": "kitchen",
+      "path": "models/kitchen/pink-donut.glb",
+      "license": "CC0-1.0",
+      "bytes": 47252,
+      "sha256": "2511e570431545c12a3d1e135a138abdd1ba7fc7994a3f64cf824235d7fe24d4",
+      "triangles": 948,
+      "meshNodes": 1,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -0.20851387083530426,
+          0.0,
+          -0.20851273834705353
+        ],
+        "max": [
+          0.2085115909576416,
+          0.20472030341625214,
+          0.20851273834705353
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "sourcePage": "https://tinytreats.itch.io/baked-goods",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Baked-Goods-1.0",
+      "originalFile": "donut_pink.gltf"
+    },
+    {
+      "id": "kitchen/sink-counter",
+      "label": "Sink Counter",
+      "group": "kitchen",
+      "path": "models/kitchen/sink-counter.glb",
+      "license": "CC0-1.0",
+      "bytes": 76596,
+      "sha256": "3ebb583b4cd0978303790256a8fd87008ef7e0b7a6965d4f6bccc7319fc57606",
+      "triangles": 1308,
+      "meshNodes": 1,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -1.0,
+          0.0,
+          -0.75
+        ],
+        "max": [
+          1.0,
+          1.7578758001327515,
+          0.7513467669487
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "sourcePage": "https://tinytreats.itch.io/charming-kitchen",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0",
+      "originalFile": "countertop_sink.gltf"
+    },
+    {
+      "id": "kitchen/strawberry-cake",
+      "label": "Strawberry Cake",
+      "group": "kitchen",
+      "path": "models/kitchen/strawberry-cake.glb",
+      "license": "CC0-1.0",
+      "bytes": 99952,
+      "sha256": "c0c43e3388249313bb5898b19391d9d9e53e156bfa063b3b3b8e01f344d258fc",
+      "triangles": 2336,
+      "meshNodes": 1,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -0.6098803281784058,
+          0.0,
+          -0.6098804473876953
+        ],
+        "max": [
+          0.6098804473876953,
+          0.6686854362487793,
+          0.6098803281784058
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "sourcePage": "https://tinytreats.itch.io/baked-goods",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Baked-Goods-1.0",
+      "originalFile": "cake_strawberry.gltf"
+    },
+    {
+      "id": "kitchen/utensils-cup",
+      "label": "Utensils Cup",
+      "group": "kitchen",
+      "path": "models/kitchen/utensils-cup.glb",
+      "license": "CC0-1.0",
+      "bytes": 48228,
+      "sha256": "dd6d40c5b47f9c2070ccd60790d011c22de92120b4c692c81e8f289b8f7839ef",
+      "triangles": 734,
+      "meshNodes": 1,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -0.35043835639953613,
+          0.0,
+          -0.20000000298023224
+        ],
+        "max": [
+          0.2950219511985779,
+          0.8324910402297974,
+          0.20000000298023224
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "sourcePage": "https://tinytreats.itch.io/charming-kitchen",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0",
+      "originalFile": "utensils_cup.gltf"
+    },
+    {
+      "id": "kitchen/wall-cabinet",
+      "label": "Wall Cabinet",
+      "group": "kitchen",
+      "path": "models/kitchen/wall-cabinet.glb",
+      "license": "CC0-1.0",
+      "bytes": 34408,
+      "sha256": "064ef63f46414c9df7aca0bdc7c83c5e057a4c8ebf520867e01af5f0f574a6df",
+      "triangles": 296,
+      "meshNodes": 1,
+      "materials": 1,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -1.0,
+          0.0,
+          -2.9802322387695312e-08
+        ],
+        "max": [
+          1.0,
+          1.0,
+          0.9999999403953552
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "sourcePage": "https://tinytreats.itch.io/charming-kitchen",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0",
+      "originalFile": "wall_cabinet_straight.gltf"
+    },
+    {
+      "id": "kitchen/window-wall",
+      "label": "Window Wall",
+      "group": "kitchen",
+      "path": "models/kitchen/window-wall.glb",
+      "license": "CC0-1.0",
+      "bytes": 53660,
+      "sha256": "205950f565353a214dedc5098ea94c03783a7b17442c675b55208e10f78a9e01",
+      "triangles": 456,
+      "meshNodes": 1,
+      "materials": 2,
+      "embeddedImages": 1,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -1.0000001192092896,
+          -1.1920928955078125e-07,
+          -0.299193799495697
+        ],
+        "max": [
+          1.000000238418579,
+          4.0,
+          0.3008062243461609
+        ]
+      },
+      "animations": [],
+      "tileNodes": 0,
+      "sourcePage": "https://tinytreats.itch.io/charming-kitchen",
+      "sourceRepository": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Charming-Kitchen-1.0",
+      "originalFile": "wall_tiles_kitchen_window.gltf"
+    },
+    {
+      "id": "stages/forest_stage",
+      "label": "Forest Stage",
+      "group": "stages",
+      "path": "models/stages/forest_stage.glb",
+      "license": "CC0-1.0",
+      "bytes": 643924,
+      "sha256": "a4895a19790584b90b271eca1e65141fb4325873a6c9f6c59288b99fe5bda11a",
+      "triangles": 156386,
+      "meshNodes": 431,
+      "materials": 13,
+      "embeddedImages": 4,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -8.55713843972819,
+          -1.899999976158142,
+          -9.230017747638906
+        ],
+        "max": [
+          8.775566063582446,
+          3.6199999904994087,
+          6.96487676604724
+        ]
+      },
+      "animations": [],
+      "tileNodes": 144,
+      "note": "Editable static opening layout; 144 independent tile roots; player loaded separately. Includes no gameplay or lights.",
+      "tilePrefix": "tile_RR_CC",
+      "cellSize": 1,
+      "tileTopY": 0,
+      "up": "Y",
+      "spawnNode": "player_spawn"
+    },
+    {
+      "id": "stages/kitchen_stage",
+      "label": "Kitchen Stage",
+      "group": "stages",
+      "path": "models/stages/kitchen_stage.glb",
+      "license": "CC0-1.0",
+      "bytes": 967336,
+      "sha256": "5dcaf869ae86eac35193935d30fb30150fdec9312291204bbfff6822c6de6779",
+      "triangles": 225851,
+      "meshNodes": 537,
+      "materials": 22,
+      "embeddedImages": 6,
+      "externalDependencies": 0,
+      "bounds": {
+        "min": [
+          -9.933397497817289,
+          -0.2799999937415123,
+          -10.534115860095383
+        ],
+        "max": [
+          8.461406800481203,
+          4.400000057178872,
+          6.312519551357821
+        ]
+      },
+      "animations": [],
+      "tileNodes": 144,
+      "note": "Editable static opening layout; 144 independent tile roots; player loaded separately. Includes no gameplay or lights.",
+      "tilePrefix": "tile_RR_CC",
+      "cellSize": 1,
+      "tileTopY": 0,
+      "up": "Y",
+      "spawnNode": "player_spawn"
+    }
+  ]
+}
